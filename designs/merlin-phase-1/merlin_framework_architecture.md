@@ -8,11 +8,23 @@ solution has not been identified yet.
 ![img](./diagrams/merlin_phase_1_deployment_diagram.png)
 
 
-## Kubernetes
+# Orchestration Options
+
+The typical `Merlin` deployment scenarios are:
+
+1.  Cloud-based for demos, exercises, etc
+2.  Attending an event such as UV, BQ, etc - they often specify what hardware
+    they need to run (3 VMs with X amount of storage, processing, and memory)
+3.  Incorporated into a tactical environment - rack-mounted VM-system on a
+    hummer, etc - similar to the event setup
+
+
+## Kubernetes (Rancher Federal)
 
 `Kubernetes` is a full-featured microservice platform including automated roll-out
 and rollback, storage orchestration, load balancing, self-healing and horizontal
-scaling across servers.
+scaling across servers. AFDCGS has adopted `Rancher Federal` as their standard
+`Kubernetes` solution.
 
 The challenge with `Kubernetes` lies in getting it installed in the `MASBUS` target
 environments.
