@@ -2,8 +2,9 @@
 
 # Deployment Structure
 
-The deployment structure for phase 1 of Merlin is shown below. An orchestration
-solution has not been identified yet.
+The deployment structure for phase 1 of Merlin is shown below. The orchestrator
+will be some flavor of Kubernetes. For local development, `k3s` is quick and easy
+to setup.
 
 ![img](./diagrams/merlin_phase_1_deployment_diagram.png)
 
