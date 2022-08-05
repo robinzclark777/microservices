@@ -2,7 +2,7 @@
 
 # Deployment Structure
 
-The deployment structure for phase 1 of Merlin is shown below. The orchestrator
+The deployment structure for phase 1 of `Merlin` is shown below. The orchestrator
 will be some flavor of Kubernetes. For local development, `k3s` is quick and easy
 to setup.
 
@@ -20,7 +20,7 @@ The typical `Merlin` deployment scenarios are:
     hummer, etc - similar to the event setup
 
 
-## Kubernetes (Rancher Federal)
+## Kubernetes
 
 `Kubernetes` is a full-featured microservice platform including automated roll-out
 and rollback, storage orchestration, load balancing, self-healing and horizontal
@@ -28,7 +28,9 @@ scaling across servers. AFDCGS has adopted `Rancher Federal` as their standard
 `Kubernetes` solution.
 
 The challenge with `Kubernetes` lies in getting it installed in the `MASBUS` target
-environments.
+environments. Due to the varied nature of `MASBUS` deployment scenarios, Merlin
+should remain `Kubernetes` provider neutral. It should be deployable on AWS,
+Rancher or any other CNCF-compatible `Kubernetes` flavor.
 
 
 ## Docker
@@ -142,7 +144,12 @@ will result in `org.apache.kafka.common.errors.InvalidReplicationFactorException
 ![img](./diagrams/merlin_phase_1_message_transformation_sequence_diagram.png)
 
 
-# Get Capabilities Sequence Diagram
+# UI Wireframe
 
-![img](./diagrams/merlin_phase_1_get_capabilities_sequence_diagram.png)
+![img](./diagrams/merlin_phase_1_ui_wireframe.png)
+
+
+# UI Sequence Diagram
+
+![img](./diagrams/merlin_phase_1_ui_sequence_diagram.png)
 
