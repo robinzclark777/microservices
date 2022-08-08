@@ -7,7 +7,7 @@ The information here was taken from
 -   The target machine must have a working `Docker` install
 
 
-# Installing k3s on Master Node
+# Installing `k3s` on Master Node
 
 
 ## Retrieve and Install k3s
@@ -25,10 +25,10 @@ The information here was taken from
     kubectl get pods -A
 
 
-# Installing k3s on Worker nodes
+# Installing `k3s` on Worker nodes
 
 
-## Copy k3s Token From Master Node
+## Copy `k3s` Token From Master Node
 
     sudo cat /var/lib/rancher/k3s/server/node-token
 
@@ -46,4 +46,22 @@ On the worker node:
 On the master node:
 
     kubectl get nodes
+
+
+# Installing Locally-Built Images on k3s
+
+
+## Copy the image from the local Docker daemon to a `.tar` file
+
+    docker save --output <docker-image-name>.tar <docker-image-name>:<version>
+
+
+## Install Image in `k3s`
+
+    sudo k3s ctr images import <docker-image-name>.tar
+
+
+## Delete Image from `k3s`
+
+    sudo k3s ctr images remove docker.io/library/<docker-image-name>:<version>
 
