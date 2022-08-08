@@ -2,7 +2,12 @@
 
 # Design solutions
 
--   [Merlin Phase 1 Design](designs/merlin-phase-1/merlin_framework_architecture.md)
+-   [Merlin Phase 1 Design](designs/merlin_framework_architecture.md)
+
+
+# Implementation documentation
+
+-   [SoS Service Kubernetes Artifacts](implementations/merlin_phase_1_kubernetes_artifacts.md)
 
 
 # Gists

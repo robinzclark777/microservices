@@ -53,7 +53,7 @@ On the master node:
 
 ## Copy the image from the local Docker daemon to a `.tar` file
 
-    docker save --output <docker-image-name>.tar <docker-image-name>:<version>
+-
 
 
 ## Install Image in `k3s`
