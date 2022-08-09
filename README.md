@@ -10,11 +10,12 @@
 -   [SoS Service Kubernetes Artifacts](implementations/merlin_phase_1_kubernetes_artifacts.md)
 
 
-# Gists
+# On-boarding Steps
 
--   [Installing k3s Locally](gists/using_k3s.md)
--   [Installing the Kubeapps Dashboard](gists/installing_kubeapps_dashboard.md)
--   [Installing the Kafka UI](gists/installing_kafka_ui.md)
--   [Kafka Quick Installation](gists/kafka_quick_install.md)
--   [Rook/Ceph Quick Installation](gists/ceph_quick_install.md)
+1.  [Installing k3s Locally](gists/using_k3s.md)
+2.  [Installing the Kubernetes Dashboard](gists/installing_kubernetes_dashboard.md)
+3.  [(Optional) Installing the Kubeapps Dashboard](gists/installing_kubeapps_dashboard.md)
+4.  [Installing Kafka](gists/kafka_quick_install.md)
+5.  [Installing the Kafka UI](gists/installing_kafka_ui.md)
+6.  Build and deploy <https://github.com/connexta/MERLIN_Microservice_POC>
 
