@@ -22,6 +22,6 @@
 
 # Learning
 
--   [Spring Framework/Spring Boot Intro](learning/spring-framework/spring-framework.md)[[]]
+-   [Spring Framework/Spring Boot Intro](learning/spring-framework/spring-framework.md)
 -   [Kubernetes Artifact Notes](learning/ckd/sitemap.md)
 
