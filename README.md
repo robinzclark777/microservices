@@ -11,8 +11,9 @@
 2.  [Installing the Kubernetes Dashboard](gists/installing_kubernetes_dashboard.md)
 3.  [(Optional) Installing the Kubeapps Dashboard](gists/installing_kubeapps_dashboard.md)
 4.  [Installing Kafka](gists/kafka_quick_install.md)
-5.  [Installing the Kafka UI](gists/installing_kafka_ui.md)
-6.  Build and deploy <https://github.com/connexta/MERLIN_Microservice_POC>
+5.  [(Recommended) Installing the Kafka UI](gists/installing_kafka_ui.md)
+6.  [(Optional) Hosting a Docker Registry in Kubernetes](gists/hosting_docker_registry_in_kubernetes.md)
+7.  Build and deploy <https://github.com/connexta/MERLIN_Microservice_POC>
 
 
 # Implementation documentation
