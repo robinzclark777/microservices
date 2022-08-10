@@ -40,6 +40,10 @@ On the worker node:
     curl -sfL https://get.k3s.io | K3S_URL=https://master-node:6443 \
         K3S_TOKEN=K100a24f0048bd0f4fca2dcba3a06e0e4014ca2067cd06ed1ec1c89f4ecbbea9e77::server:23e30fda2c63734f687242fe5822a732 sh -
 
+To authorize your user to access the cluster:
+
+    sudo cat /etc/rancher/k3s/k3s.yaml > ~/.kube/config
+
 
 ## Verify Additional Node
 
@@ -53,7 +57,7 @@ On the master node:
 
 ## Copy the image from the local Docker daemon to a `.tar` file
 
--
+    docker save --output <docker-image-name>.tar <docker-image-name>:<version>
 
 
 ## Install Image in `k3s`
