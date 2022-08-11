@@ -23,6 +23,7 @@
 
 # Learning
 
+-   [FAQs](learning/FAQ.md)
 -   [Spring Framework/Spring Boot Intro](learning/spring-framework/spring-framework.md)
 -   [Kubernetes Artifact Notes](learning/ckd/sitemap.md)
 
