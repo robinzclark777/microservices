@@ -22,10 +22,18 @@ This step is only necessary if the Bitnami repo wasn&rsquo;t previously added
 
 # Install the Image Using Helm
 
-    helm install -n merlin-phase1 kafka bitnami/kafka
+This command deploys `Kafka`. The `deleteTopicEnable` setting allows us to remove
+topics. For a complete list of available parameters, see Reference [1].
+
+    helm install -n merlin-phase1 --set deleteTopicEnable=true kafka bitnami/kafka
 
 
 # To Uninstall Kafka
 
     helm uninstall -n merlin-phase1 kafka
+
+
+# References
+
+[1] - <https://github.com/bitnami/charts/tree/master/bitnami/kafka/#installing-the-chart>
 
